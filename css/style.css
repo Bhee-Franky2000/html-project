@@ -1,0 +1,125 @@
+@import url('fonts.css');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.header {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Akshar';
+    background-color: black;
+}
+
+.header-container {
+    width: 90%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: auto;
+    height: 50px;
+}
+
+.child1 {
+    display: flex;
+    align-content: space-between;
+    gap: 50px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    font-size: medium;
+    font-family: 'Akshar';
+    color: white;
+
+}
+
+.header-button {
+    font-family:  "Akshar", sans-serif;
+ 
+}
+
+.header-defi {
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    font-family: 'Akshar';
+    border-radius: 18px;
+    font-weight: 500;
+    padding: 12px 25px;
+}
+
+.hero{
+    height: calc(100vh - 70px);
+    background-image: url('../asset/images/background\ image2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.425);
+    display: flex;
+    justify-content: center;
+}
+
+.hero-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.hero-container h1 {
+    font-family: 'Akshar', sans-serif;
+    font-size: 55px;
+    max-width: 20ch;
+    text-align: center;
+    color: white;
+    line-height: 1.2;
+}
+
+.hero-container p {
+    font-family:  "Akshar", sans-serif;
+    color: rgba(255, 255, 255, 0.849);
+    max-width: 55ch;
+    text-align: center;
+    word-spacing: 2px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 20px;
+    font-family:  "Akshar", sans-serif;
+}
+
+.hero-trial {
+    background-color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    color: black;
+    font-family:  "Akshar", sans-serif;
+    border-radius: 18px;
+    font-weight: 500;
+
+}
+
+
+
+
